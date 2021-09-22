@@ -18,7 +18,6 @@ export class OrderComponent implements OnInit {
   numberPattern = /^[0-9]*$/
 
   orderForm: FormGroup
-  emailsNotMatched: boolean
 
   delivery: number = 8
 
