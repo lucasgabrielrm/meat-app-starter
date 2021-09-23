@@ -13,6 +13,6 @@ const ROUTES: Routes = [
 
 @NgModule({
   declarations:[OrderComponent, OrderItemsComponent, DeliveryCostsComponent],
-  imports: [RouterModule.forChild(ROUTES)]
+  imports: [SharedModule, RouterModule.forChild(ROUTES)]
 })
 export class OrderModule{}
